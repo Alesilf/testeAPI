@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Layer.Architecture.Application</name>
+    </assembly>
+    <members>
+        <member name="M:Layer.Architecture.Application.Controllers.ClienteController.Create(Layer.Architecture.Domain.ViewModel.Cliente.CreateClienteVM)">
+            <summary>
+            Create
+            </summary>
+            <param name="cliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.ClienteController.Get">
+            <summary>
+            Busca todos Usurios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.ClienteController.Get(System.Int32)">
+            <summary>
+            Busca usuario por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.FinanciamentoController.Create(Layer.Architecture.Domain.ViewModel.Financiamento.CreateFinanciamentoVM)">
+            <summary>
+            Adicionar Financiamento
+            </summary>
+            <param name="financiamento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.FinanciamentoController.Get">
+            <summary>
+            Busca todos os Financiamentos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.FinanciamentoController.Get(System.Int32)">
+            <summary>
+            Busca financiamento por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.ParcelaController.Create(Layer.Architecture.Domain.ViewModel.Parcela.CreateParcelaVM)">
+            <summary>
+            Create
+            </summary>
+            <param name="Parcela"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.ParcelaController.Get">
+            <summary>
+            Busca todos Usurios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Controllers.ParcelaController.Get(System.Int32)">
+            <summary>
+            Busca usuario por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Layer.Architecture.Application.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Layer.Architecture.Application.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
